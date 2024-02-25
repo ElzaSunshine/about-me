@@ -1,0 +1,25 @@
+.block {
+  display: flex;
+  padding-bottom: 48px;
+  position: relative;
+  &__content {
+    padding-left: 64px;
+    width: 100%;
+
+    @media (max-width: 990px) {
+      padding-left: 32px;
+    }
+
+    @media (max-width: 770px) {
+      padding-left: 24px;
+    }
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133%;
+    color: #2e2e48;
+    padding-bottom: 32px;
+    font-family: "Outfit", sans-serif;
+  }
+}

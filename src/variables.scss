@@ -1,0 +1,32 @@
+$white: #fff;
+
+$default_gray: #79819a;
+$dark_gray: #47516b;
+
+$darker_gray: #2e2e48;
+
+$light_gray: #79819a;
+$middle_gray: #e2e6ee;
+
+$light_bg: #f7f9fc;
+
+$light_blue: #5d5fef;
+
+$purple: #5531a7;
+
+$blue_gray: #e1e7fe;
+
+:export {
+  white: $white;
+  default_gray: $default_gray;
+  dark_gray: $dark_gray;
+  darker_gray: $darker_gray;
+  light_gray: $light_gray;
+  middle_gray: $middle_gray;
+
+  light_bg: $light_bg;
+  light_blue: $light_blue;
+
+  purple: $purple;
+  blue_gray: $blue_gray;
+}

@@ -1,0 +1,7 @@
+.jobs {
+  display: flex;
+
+  @media (max-width: 770px) {
+    flex-wrap: wrap;
+  }
+}

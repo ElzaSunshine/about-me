@@ -1,0 +1,5 @@
+.contact {
+  &__item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}

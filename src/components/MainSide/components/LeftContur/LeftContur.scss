@@ -1,0 +1,33 @@
+@import "../../../../variables";
+
+.circle {
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.04),
+      0 12px 48px 0 rgba(0, 0, 0, 0.04), 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      background-color: $middle_gray;
+      top: 32px;
+      left: 15px;
+    }
+  }
+  &__small {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: $purple;
+  }
+}

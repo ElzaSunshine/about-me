@@ -1,0 +1,40 @@
+@import "../../../../variables";
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  & a {
+    color: $dark_gray;
+  }
+  &__img-wr {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: $middle_gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__info {
+    margin-left: 16px;
+  }
+  &__title {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 4px;
+    color: $default_gray;
+  }
+  &__link {
+    font-size: 14px;
+    font-weight: 500;
+    color: $dark_gray;
+  }
+}

@@ -1,23 +1,24 @@
-import React from "react";
 import "./MainSide.scss";
 import Block from "./components/Block/Block";
 import EducationItem from "./components/EducationItem/EducationItem";
 import kgeu from "../../assets/educations/kgeu.jpg";
 import Tools from "./components/Tools/Tools";
-import {
-  Css,
-  Figma,
-  Html,
-  Notion,
-  Vscode,
-  Jira,
-  Sass,
-  TS,
-  AI,
-  JS,
-} from "../../assets/tools/index.js";
+
+import Css from "../../assets/tools/css.png";
+import Figma from "../../assets/tools/figma.png";
+import Html from "../../assets/tools/html.png";
+import Notion from "../../assets/tools/notion.png";
+import Vscode from "../../assets/tools/vscode.png";
+import Jira from "../../assets/tools/Jira.png";
+import Sass from "../../assets/tools/sass.png";
+import TS from "../../assets/tools/ts.png";
+import AI from "../../assets/tools/ai.png";
+import JS from "../../assets/tools/js.png";
+
+import direkt from "../../assets/jobs/direkt.jpeg";
+import imot from "../../assets/jobs/imot.png";
+
 import Jobs from "./components/Jobs/Jobs.js";
-import { direkt, imot } from "../../assets/jobs/index.js";
 
 const tools = [
   {

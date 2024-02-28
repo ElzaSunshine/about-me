@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import "./ToolsItem.scss";
 import { ToolsItemProps } from "../Tools/Tools";
 

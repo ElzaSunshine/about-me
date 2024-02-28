@@ -1,7 +1,7 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import "./JobsItems.scss";
 import { JobsItemProps } from "../Jobs/Jobs";
-import Link from "../../../../assets/Link.jsx";
+import Link from "../../../../assets/Link.tsx";
 
 const JobsItem: FC<JobsItemProps> = ({ img, title, subtitle, link, years }) => {
   return (

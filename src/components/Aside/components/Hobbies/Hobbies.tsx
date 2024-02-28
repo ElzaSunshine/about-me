@@ -1,4 +1,3 @@
-import React from "react";
 import AsideBlockTitle from "../AsideBlockTitle/AsideBlockTitle";
 import HobbiesItem from "../HobbiesItem/HobbiesItem";
 import DrawingIcon from "../../../../assets/hobbies/DrawingIcon";

@@ -1,4 +1,3 @@
-import React from "react";
 import AboutMe from "./components/AboutMe/AboutMe";
 import "./Aside.scss";
 import Contacts from "./components/Contacts/Contacts";

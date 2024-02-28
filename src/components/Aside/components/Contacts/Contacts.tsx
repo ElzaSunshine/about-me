@@ -1,4 +1,3 @@
-import React from "react";
 import ContactItem from "../ContactItem/ContactItem";
 import LocationIcon from "../../../../assets/contacts/LocationIcon";
 import MailIcon from "../../../../assets/contacts/MailIcon";

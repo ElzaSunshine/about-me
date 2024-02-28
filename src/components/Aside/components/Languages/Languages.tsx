@@ -1,4 +1,3 @@
-import React from "react";
 import Russian from "../../../../assets/languages/Russian";
 import English from "../../../../assets/languages/English";
 

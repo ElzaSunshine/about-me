@@ -1,4 +1,3 @@
-import React from "react";
 import ContactItem from "../ContactItem/ContactItem";
 import Instagram from "../../../../assets/socials/Instagram";
 import Github from "../../../../assets/socials/Github";

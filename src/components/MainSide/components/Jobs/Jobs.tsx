@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import "./Jobs.scss";
 import JobsItem from "../JobsItem/JobsItem";
 

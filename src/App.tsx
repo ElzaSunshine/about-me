@@ -4,13 +4,9 @@ import MainSide from "./components/MainSide/MainSide";
 
 function App() {
   return (
-    <div className="body">
-      <div className="wrapper">
-        <div className="main">
-          <Aside />
-          <MainSide />
-        </div>
-      </div>
+    <div className="main">
+      <Aside />
+      <MainSide />
     </div>
   );
 }

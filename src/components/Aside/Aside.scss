@@ -5,13 +5,7 @@
   background-color: $light_bg;
   width: 30%;
 
-  @media (max-width: 1100px) {
-    padding: 36px;
-    width: 25%;
-  }
-
   @media (max-width: 990px) {
-    padding: 24px;
     width: auto;
   }
 }

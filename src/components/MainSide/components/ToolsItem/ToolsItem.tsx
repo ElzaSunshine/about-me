@@ -4,7 +4,7 @@ import { ToolsItemProps } from "../Tools/Tools";
 
 const ToolsItem: FC<ToolsItemProps> = ({ img, title, subtitle }) => {
   return (
-    <div className={`tools-item`}>
+    <div className="tools-item">
       <div className="tools-item__img">
         <img src={img} alt={title} />
       </div>

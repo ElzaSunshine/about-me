@@ -1,29 +1,22 @@
+import { FC } from "react";
 import AsideBlockTitle from "../AsideBlockTitle/AsideBlockTitle";
-import HobbiesItem from "../HobbiesItem/HobbiesItem";
-import DrawingIcon from "../../../../assets/hobbies/DrawingIcon";
-import BookIcon from "../../../../assets/hobbies/BookIcon";
-import SportIcon from "../../../../assets/hobbies/SportIcon";
-import TravellingIcon from "../../../../assets/hobbies/TravellingIcon";
+import HobbiesItem, { HobbiesItemProps } from "../HobbiesItem/HobbiesItem";
 
-const Hobbies = () => {
+interface HobbiesProps {
+  hobbies: HobbiesItemProps[];
+}
+const Hobbies: FC<HobbiesProps> = ({ hobbies }) => {
   return (
     <div className="contact aside-item">
       <AsideBlockTitle title="Hobbies" />
-      <div className="contact__item"></div>
-      <div className="contact__item">
-        <HobbiesItem img={<DrawingIcon />} title={"Drawing"} />
-      </div>
-      <div className="contact__item">
-        <HobbiesItem img={<BookIcon />} title={"Reading books"} />
-      </div>
 
-      <div className="contact__item">
-        <HobbiesItem img={<SportIcon />} title={"Pole dance"} />
-      </div>
-
-      <div className="contact__item">
-        <HobbiesItem img={<TravellingIcon />} title={"Travelling"} />
-      </div>
+      {hobbies.map((hobbie) => {
+        return (
+          <div className="contact__item">
+            <HobbiesItem img={hobbie.img} title={hobbie.title} />
+          </div>
+        );
+      })}
     </div>
   );
 };

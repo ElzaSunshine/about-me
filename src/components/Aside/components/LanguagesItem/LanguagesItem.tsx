@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import "./LanguagesItem.scss";
 
-interface LanguagesItemProps {
+export interface LanguagesItemProps {
   img: JSX.Element;
   title: string;
   subtitle: string | React.ReactElement;

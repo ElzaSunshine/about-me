@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./HobbiesItem.scss";
 
-interface HobbiesItemProps {
+export interface HobbiesItemProps {
   img: JSX.Element;
   title: string;
 }

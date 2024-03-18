@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import "./ContactItem.scss";
 
-interface ContactItemProps {
+export interface ContactItemProps {
   img: JSX.Element;
   title: string;
   link: string | React.ReactElement;

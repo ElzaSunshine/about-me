@@ -1,23 +1,28 @@
-import Russian from "../../../../assets/languages/Russian";
-import English from "../../../../assets/languages/English";
-
-import LanguagesItem from "../LanguagesItem/LanguagesItem";
+import { FC } from "react";
+import LanguagesItem, {
+  LanguagesItemProps,
+} from "../LanguagesItem/LanguagesItem";
 import AsideBlockTitle from "../AsideBlockTitle/AsideBlockTitle";
 
-const Languages = () => {
+interface LanguagesProps {
+  languages: LanguagesItemProps[];
+}
+
+const Languages: FC<LanguagesProps> = ({ languages }) => {
   return (
     <div className="contact aside-item">
       <AsideBlockTitle title={"Languages"} />
-      <div className="contact__item">
-        <LanguagesItem
-          img={<Russian />}
-          title={"Russian"}
-          subtitle={"Native"}
-        />
-      </div>
-      <div className="contact__item">
-        <LanguagesItem img={<English />} title={"English"} subtitle={"B1"} />
-      </div>
+      {languages.map((lang) => {
+        return (
+          <div className="contact__item">
+            <LanguagesItem
+              img={lang.img}
+              title={lang.title}
+              subtitle={lang.subtitle}
+            />
+          </div>
+        );
+      })}
     </div>
   );
 };
